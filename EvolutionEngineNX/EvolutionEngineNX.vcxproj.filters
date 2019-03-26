@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Plutonium">
+      <UniqueIdentifier>{d15b0796-a5ec-46b4-80e5-0693f6a12339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plutonium\render">
+      <UniqueIdentifier>{0db3d5ed-ea17-4a00-beed-24d429dcee16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plutonium\draw">
+      <UniqueIdentifier>{21eb4958-c92c-4f0f-b631-9c1c535b90aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plutonium\element">
+      <UniqueIdentifier>{496e703c-40fd-4c85-bf82-d9b6262e2109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="source\Plutonium\pu\Plutonium">
+      <Filter>Plutonium</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameScreen.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IntroScreen.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadingScreen.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LocalizationManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MusicSound.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SaveData.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SaveManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SfxSound.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sound.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SplashScreen.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sprite.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Text.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TitleScreen.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\Application.cpp">
+      <Filter>Plutonium</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\Dialog.cpp">
+      <Filter>Plutonium</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\Layout.cpp">
+      <Filter>Plutonium</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\render\Renderer.cpp">
+      <Filter>Plutonium\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\render\SDL2.cpp">
+      <Filter>Plutonium\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\draw\Color.cpp">
+      <Filter>Plutonium\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\Button.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\Element.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\IconButton.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\Image.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\Menu.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\ProgressBar.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\Rectangle.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\TextBlock.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Plutonium\element\Toggle.cpp">
+      <Filter>Plutonium\element</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Filepaths.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameScreen.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IntroScreen.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LoadingScreen.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LocalizationManager.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MusicSound.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SaveData.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SaveManager.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneManager.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Settings.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SfxSound.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sound.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SplashScreen.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sprite.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Text.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TitleScreen.hpp">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\Include\pu\element\Element.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\Application.hpp">
+      <Filter>Plutonium</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\Dialog.hpp">
+      <Filter>Plutonium</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\draw.hpp">
+      <Filter>Plutonium</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element.hpp">
+      <Filter>Plutonium</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\Layout.hpp">
+      <Filter>Plutonium</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\render.hpp">
+      <Filter>Plutonium</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\draw\Color.hpp">
+      <Filter>Plutonium\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\draw\Font.hpp">
+      <Filter>Plutonium\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\render\Renderer.hpp">
+      <Filter>Plutonium\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\render\SDL2.hpp">
+      <Filter>Plutonium\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\Button.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\Element.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\IconButton.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\Image.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\Menu.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\ProgressBar.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\Rectangle.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\TextBlock.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Plutonium\pu\element\Toggle.hpp">
+      <Filter>Plutonium\element</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

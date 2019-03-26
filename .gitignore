@@ -26,3 +26,11 @@
 *.exe
 *.out
 *.app
+
+#Folders
+[Dd]ebug/
+.vs/
+*.sln
+*vcxproj
+EvolutionEngineNX/build/
+EvolutionEngineNX/Debug/

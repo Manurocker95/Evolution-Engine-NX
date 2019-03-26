@@ -1,0 +1,20 @@
+
+/*
+
+    Plutonium library
+
+    @file Plutonium
+    @brief Plutonium library's main header. (include this to use this library properly)
+    @author XorTroll
+
+    @copyright Plutonium project - an easy-to-use UI framework for Nintendo Switch homebrew
+
+*/
+
+#pragma once
+#include "Application.hpp"
+#include "Dialog.hpp"
+#include "draw.hpp"
+#include "element.hpp"
+#include "Layout.hpp"
+#include "render.hpp"
