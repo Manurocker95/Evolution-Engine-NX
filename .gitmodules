@@ -1,0 +1,6 @@
+[submodule "EvolutionEngineNX\\include\\Plutonium"]
+	path = EvolutionEngineNX\\include\\Plutonium
+	url = https://github.com/XorTroll/Plutonium.git
+[submodule "EvolutionEngineNX/Plutonium"]
+	path = EvolutionEngineNX/Plutonium
+	url = https://github.com/XorTroll/Plutonium.git
